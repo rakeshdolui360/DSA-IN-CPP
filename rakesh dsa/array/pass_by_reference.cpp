@@ -3,6 +3,7 @@ using namespace std;
 void func(int * arr){
     arr[0]=1000;
 
+
 }
 void func2(int arr[]){
     arr[0]=2000;
@@ -10,10 +11,12 @@ void func2(int arr[]){
 }
 
 //print array
-void printarr(int ptr[],int n){
+void printarr(int arr[],int n){
     for(int i=0;i<=n-1;i++){
-        cout<<ptr[i]<<" ";
+        cout<<arr[i]<<" ";
         }
+
+
     }     
 
 
